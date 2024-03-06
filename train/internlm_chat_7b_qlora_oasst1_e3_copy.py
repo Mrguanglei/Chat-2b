@@ -27,7 +27,7 @@ pretrained_model_name_or_path = './internlm-chat-7b'
 use_varlen_attn = False
 
 # Data
-data_path = '/home/mrguanglei/xtuner/data/huanhuan_xtuner11.json'
+data_path = './data/huanhuan_xtuner11.json'
 prompt_template = PROMPT_TEMPLATE.internlm_chat
 max_length = 1024
 pack_to_max_length = False
