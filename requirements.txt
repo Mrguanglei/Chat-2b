@@ -125,7 +125,6 @@ tiktoken==0.4.0
 tokenizers==0.13.2
 toolz==0.12.0
 torch==2.2.0
-torchaudio==0.12.1
 torchvision==0.13.1
 tqdm==4.65.0
 transformers==4.29.2
