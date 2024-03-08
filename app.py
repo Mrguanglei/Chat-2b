@@ -20,10 +20,10 @@ st.title("💬 InternLM2-Chat-7B 嬛嬛版")
 st.caption("🚀 A streamlit chatbot powered by InternLM2 QLora")
 
 # 定义模型路径
+model_id = 'kmno4zx/huanhuan-chat-internlm2'
 
-# model_id = 'kmno4zx/huanhuan-chat-internlm2'
+mode_name_or_path = snapshot_download(model_id, revision='master')
 
-mode_name_or_path = '/home/mrguanglei/xtuner/ft-oasst1/merged'
 
 
 # 定义一个函数，用于获取模型和tokenizer
